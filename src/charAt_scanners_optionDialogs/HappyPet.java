@@ -1,4 +1,7 @@
+
 package charAt_scanners_optionDialogs;
+import java.util.Random;
+
 import javax.swing.JOptionPane;
 
 public class HappyPet {
@@ -33,7 +36,7 @@ int task = JOptionPane.showOptionDialog(null, "What will u do to make ur pet hap
         	   System.out.println(happinessLevel);
            }
 
-           
+
            
 			// 6. If you determine the happiness level is large enough, tell the
 			//    user that he loves his pet and use break; to exit for loop.
